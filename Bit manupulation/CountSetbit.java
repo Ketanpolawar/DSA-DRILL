@@ -5,9 +5,11 @@ public static void main(String args []){
     System.out.println(B);
 }
 
-public static int CouSet(num){
+public static int CouSet(int num){
+    int count=0;
     while(num!=0){
     num&=num-1;
+    count=count+1;
     }
-    retun num
+    retun count;
 }
