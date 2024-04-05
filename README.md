@@ -1,11 +1,6 @@
-### Team-The Coders
-
-### Domain : 
-We are working on domains such as Web development and  AI/ML.
+### Team : The Coders
+### Team id : WHO63
+##  Problem Statement : Adaptive Laearning Pathways
 
 ### Description :
-Our project will be based on Adaptive Learning 
-We will be creating a responsive  educational website for specially abled person.This website will target on providing educational facilities for these specially abled persons.
-They would get a chance to learn from top tutorials  of our country,thus empowering them and helping them to enhance their educational background.Our further aim would be create a
-sentimental analysis model that would track attention retaining capacity of these individuals.If an individual looses intrest while ongoing lecture the website will provide a popup or
-a game will be displayed to regain it's interest.
+Our project will be based on Adaptive Learning We will be creating a Adaptive educational website i.e. website would adapt as per the user . We are focusing to cater our fellow friends with special abilities both major(Blindness,deaf,etc) and minor(congnative disabilities,adhd,dyslexia) .This website will target on providing education keeping in mind the learning preferences of the users thus empowering them and helping them to enhance their skills.Our further aim would be create a AI model to  track attention retaining capacity of these individuals and thus enganging them with short activities to help them regain their intrest in ongoing lecture to enhance the learning.
