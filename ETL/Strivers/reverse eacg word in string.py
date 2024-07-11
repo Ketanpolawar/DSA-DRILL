@@ -20,7 +20,7 @@ class Solution:
 
         # or
 
-        class Solution:
+class Solution:
     def reverseWords(self, s: str) -> str:
         count=0
         a=[]
