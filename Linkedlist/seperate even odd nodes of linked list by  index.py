@@ -8,8 +8,8 @@
 #         headeven=ListNode(0) #this is a dummy list to store even values with first node val is 0 
 #         headodd=ListNode(0)#this is a dummy list to store odd values with odd val is 0
 
-#         oddcurr=headodd #this is head for oddlist points to first node
-#         evencurr=headeven# this is head for evenlist points to first node
+#         oddcurr=headodd     #this is head for oddlist points to first node
+#         evencurr=headeven   # this is head for evenlist points to first node
 #         curr=head# to traverse original linked list
 #         is_odd=True 
 
