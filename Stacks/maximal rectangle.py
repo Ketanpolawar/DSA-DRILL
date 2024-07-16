@@ -11,7 +11,7 @@ def maximal_rectangel(arr):
         x=largestrectangele(ans)
         m=max(m,x)
     return m
-
+#
 def leftsmallerindices(arr):
     res=[-1]*(len(arr))
     st=[]
