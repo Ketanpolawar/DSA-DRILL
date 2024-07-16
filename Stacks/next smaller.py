@@ -18,7 +18,7 @@ arr=[1,2,1]
 ans=[-1]*(len(arr))
 st=Stack()
 for i in range(len(arr)-1,-1,-1):
-    while not st.isempty() and st.peek() <= arr[i]:
+    while not st.isempty() and st.peek() >= arr[i]:
         st.pop()
     if not st.isempty():
         ans[i] = st.peek()
