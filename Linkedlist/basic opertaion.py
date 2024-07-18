@@ -91,6 +91,7 @@ class LinkedList:#when ever we make any linkedlist object it will initialise its
                 curr=curr.next
         return leng+1
     
+    
     def findele(self,ele):
         if self.head is None:
             return None
