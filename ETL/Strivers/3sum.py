@@ -18,9 +18,9 @@ def triplets(arr):
                 ans.append(temp)
                 j=j+1
                 k=k-1
-                while(j<k and arr[j]!=arr[j-1]):
+                while(j<k and arr[j]==arr[j-1]):
                     j=j+1
-                while(j<k and arr[k]!=arr[k+1]):
+                while(j<k and arr[k]==arr[k+1]):
                     k=k-1
     return ans
 
