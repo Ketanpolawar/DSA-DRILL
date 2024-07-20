@@ -1,6 +1,6 @@
 #approch 1:sort both list and compare both list
 #use map to store count compare both map
-#use frequency array update on first padss ,decrese on 2nd
+#use frequency array update on first pass ,decrese on 2nd
 
 
 str1="CAT"
