@@ -9,19 +9,20 @@ def sum4(arr,target):
                 continue
             k=j+1
             l=len(arr)-1
-            s=arr[i]+arr[j]+arr[k]+arr[l]
-            if(s==target):
-                ans.append([arr[i],arr[j],arr[k],arr[l]])
-                k=k+1
-                l=l+1
-                while(k<l and arr[k]==arr[k-1]):
+            while(k<l):
+                s=arr[i]+arr[j]+arr[k]+arr[l]
+                if(s==target):
+                    ans.append([arr[i],arr[j],arr[k],arr[l]])
                     k=k+1
-                while(k<l and arr[l]==arr[l-1]):
+                    l=l+1
+                    while(k<l and arr[k]==arr[k-1]):
+                        k=k+1
+                    while(k<l and arr[l]==arr[l-1]):
+                        l=l-1
+                elif(s>target):
                     l=l-1
-            elif(s>target):
-                l=l-1
-            else:
-                k=k+1
+                else:
+                    k=k+1
         return ans
             
             
