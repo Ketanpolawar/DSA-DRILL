@@ -1,6 +1,6 @@
 a=[7,6,4,3,1]
 maxprofit=0
-curp=-0
+curp=0
 i=0
 j=1
 while(j<len(a)):

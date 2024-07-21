@@ -1,5 +1,5 @@
 #find the break point
-#from right od breakpoint fin min index
+#from right oF breakpoint find min index
 #swap with the min index 
 #now reverse the right of break point
 #if no break point return same array

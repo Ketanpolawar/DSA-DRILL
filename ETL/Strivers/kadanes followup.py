@@ -8,7 +8,7 @@ arre=-1
 end=-1
 for i in range(len(a)):
     if(s==0):
-        start=i
+        start=i #STARTING OF NEW SUBAARY IS STORED
     s=s+a[i]
     if s>maxsum:
         maxsum=s

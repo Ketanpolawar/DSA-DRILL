@@ -10,6 +10,8 @@ for i in range(len(a)):
         print(i)
         print(s[compliment])
 
+#O(N)   
+
 # if array is sorted optimized approach
 a=[1,2,3,4,5,6,7,8]
 k=10
@@ -24,3 +26,4 @@ while(i<j):
         j=j-1
     elif(a[i]+a[j]<k):
         i=i+1
+#O(N)+O(N*logN)
