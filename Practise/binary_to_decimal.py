@@ -1,0 +1,11 @@
+# a='0101101'
+# n=int(a)
+# ans=0
+# power=0
+# temp=n
+# while(temp):
+#     x=temp%10
+#     ans=ans+((2**power)*x)
+#     power+=1
+#     temp=temp//10
+# print(ans)
